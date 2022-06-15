@@ -1,19 +1,30 @@
 {
-  "name": "ice-cream-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.27.2",
-    "cors": "^2.8.5",
-    "dotenv": "^14.3.2",
-    "express": "^4.18.0",
-    "mongoose": "^6.3.1"
-  }
+    "name": "ice-cream-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "cars": "^1.1.6",
+        "cors": "^2.8.5",
+        "dotenv": "^14.3.2",
+        "express": "^4.18.1",
+        "mongoose": "^6.3.2",
+        "nodemailer": "^6.7.5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ramag1/gtpbackend.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ramag1/gtpbackend/issues"
+    },
+    "homepage": "https://github.com/ramag1/gtpbackend#readme"
 }
